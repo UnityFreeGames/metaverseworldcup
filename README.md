@@ -1,3 +1,3 @@
-# Welcome to The EVS NFT 💎
-# The EVS NFT minting dapp 🔥
+# Welcome to The metaverse world cup 2022 NFT 💎
+# The NFT minting dapp 🔥
 
