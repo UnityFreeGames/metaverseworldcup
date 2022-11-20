@@ -1,0 +1,19 @@
+{
+  "CONTRACT_ADDRESS": "0xBa3087B4A35526F657cc0c1dF20717cfF78f7F18",
+  "SCAN_LINK": "https://polygonscan.com/token/0xBa3087B4A35526F657cc0c1dF20717cfF78f7F18",
+  "NETWORK": {
+    "NAME": "Polygon",
+    "SYMBOL": "Matic",
+    "ID": 137
+  },
+  "NFT_NAME": "Metaverse World Cup 2022",
+  "SYMBOL": "MWC2022",
+  "MAX_SUPPLY": 2022,
+  "WEI_COST": 5000000000000000000,
+  "DISPLAY_COST": 5,
+  "GAS_LIMIT": 285000,
+  "MARKETPLACE": "Opeansea",
+  "MARKETPLACE_LINK": "https://opensea.io/collection/metaversworldcup",
+  "Twitter_LINK": "https://twitter.com/Zar_NFT_Artist",
+  "SHOW_BACKGROUND": true
+}
