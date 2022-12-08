@@ -295,7 +295,7 @@ function App() {
                 <s.TextTitle
                   style={{ textAlign: "center", color: "var(--accent-Texttype1)" }}
                 >
-                  NFT MINT PRICE: {CONFIG.DISPLAY_COST}{" "}
+                  NFT FREE MINT: {CONFIG.DISPLAY_COST}{" "}
                   {CONFIG.NETWORK.SYMBOL}
                 </s.TextTitle>
                 <s.SpacerXSmall />
@@ -425,7 +425,7 @@ function App() {
 		<div id="faq" className="textBlock row">
           <div id="toadverseIntro" className="textBlockColumn">
             <div>
-              <s.Texttype1>NFT COLLECTION</s.Texttype1>
+              <s.Texttype1>FREE NFT COLLECTION</s.Texttype1>
               <s.TextSubTitle>
                Cool Simpson Football Club is a collection of 2022 NFTs on ERC-721A that aims to build a global community for worldwide connections in both digital space and real world.Cool Simpson Football Club can come to connect, promote businesses, share ideas or experiences about art, cultures, and various other topics. Certainly, Cool Simpson Football Club NFT will be a valuable access to explore your new journey and connections.
               </s.TextSubTitle>
