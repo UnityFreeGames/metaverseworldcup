@@ -2540,7 +2540,7 @@ function App() {
 	if(sum > 3)
 	{
 	  console.log("sum: ", sum);
-	  setFeedback(`balane bigger three...`);	
+	  setFeedback(`your total is 3...`);	
 	    return;	
 	}
 	
