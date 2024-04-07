@@ -1,0 +1,23 @@
+{
+  "CONTRACT_ADDRESS": "0xeef5b751bbbee4ef95fe52d01286c1603935d77a",
+  "SCAN_LINK": "https://polygonscan.com/address/0xeef5b751bbbee4ef95fe52d01286c1603935d77a",
+  "NETWORK": {
+    "NAME": "Polygon",
+    "SYMBOL": "Matic",
+    "ID": 137
+  },
+  "NFT_NAME": "PePeMIGOS",
+  "SYMBOL": "PPM",
+  "MAX_SUPPLY": 2000,
+  "WEI_COST": 2000000000000000000,
+  "DISPLAY_COST": 2,
+  "GAS_LIMIT": 256000,
+  "FreeMint": 0,
+  "WhiteList": true,
+  "WL_User": false,
+  "BalanceAccount": 0,
+  "MARKETPLACE": "Opeansea",
+  "MARKETPLACE_LINK": "https://opensea.io/collection/pepemigosofficial",
+  "Twitter_LINK": "https://twitter.com/missing_studios",
+  "SHOW_BACKGROUND": true
+}
