@@ -98,6 +98,7 @@ export const StyledLink = styled.a`
 `;
 
 function App() {
+	
   const dispatch = useDispatch();
   const blockchain = useSelector((state) => state.blockchain);
   const data = useSelector((state) => state.data);
@@ -303,11 +304,23 @@ function App() {
 
   useEffect(() => {
     getConfig();
+	
   }, []);
 
   useEffect(() => {
     getData();
   }, [blockchain.account]);
+  
+  useEffect(() => {
+    // بر روی دکمه با id 'myButton' کلیک را صورت خودکار فراخوانی می‌کنیم
+    document.getElementById('myButton').click();
+  }, []); // آرایه وابستگی خالی برای اجرای ایفکت فقط یک بار در ابتدا
+
+  const handleClick = (e) => {
+     e.preventDefault();
+     dispatch(connect());
+     getData(); 
+  };
   
 
   return (
@@ -435,12 +448,7 @@ function App() {
                     </s.TextDescription>
                     <s.SpacerSmall />
                     <StyledButton 
-                      onClick={(e) => {
-                        e.preventDefault();
-                        dispatch(connect());
-                        getData(); 
-						
-                      }}
+                       id="myButton" onClick={handleClick}
                     >
                       CONNECT
                     </StyledButton>
