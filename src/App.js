@@ -432,7 +432,7 @@ function App() {
                 <s.TextDescription
                   style={{ textAlign: "center", color: "var(--accent-text1)" }}
                 >
-                  1 Free per wallet (2 Matic after)
+                  1 Free per wallet (0.1 Matic after)
                 </s.TextDescription>
                 <s.SpacerSmall />
                 {blockchain.account === "" ||
