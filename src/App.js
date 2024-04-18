@@ -229,10 +229,10 @@ function App() {
     const num2 = parseInt(mintAmount);
 	const sum = num1 + num2;
 
-	if(sum > 5)
+	if(sum > 20)
 	{
 	  console.log("sum: ", sum);
-	  setFeedback(`max balance 5...`);	
+	  setFeedback(`max balance 20 nfts.`);	
 	    return;	
 	}
 	
@@ -276,8 +276,8 @@ function App() {
 
   const incrementMintAmount = () => {
     let newMintAmount = mintAmount + 1;
-    if (newMintAmount > 5) {
-      newMintAmount = 5;
+    if (newMintAmount > 20) {
+      newMintAmount = 20;
     }
     setMintAmount(newMintAmount);
   };
